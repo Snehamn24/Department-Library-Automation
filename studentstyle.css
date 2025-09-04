@@ -1,0 +1,64 @@
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f3eaff; /* Light purple background */
+        }
+
+        .navbar {
+            background-color: #301934 !important; /* Deep Purple */
+        }
+
+        .navbar .nav-link,
+        .navbar-brand,
+        .navbar .text-white strong {
+            color: #fff !important;
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: row;
+            height: calc(100vh - 100px); /* Adjust for navbar + marquee */
+            width: 100%;
+        }
+
+        .left-side {
+          flex: 1;
+          background-color: #f3eaff; /* Same as body background */
+          background-image: url('gif1.gif');
+          background-repeat: no-repeat;
+          background-position: left center;
+          background-size: contain;
+}
+
+
+        .right-side {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            
+             height: 150px;
+            max-width: 300px;
+            width: 100%; 
+        }
+
+        .card-header {
+            background-color: #BA96c1; /* Medium purple */
+            color: white;
+            font-weight: bold;
+        }
+
+        .btn-outline-primary {
+            border-color: #BA96c1;
+            color: #5e17eb;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: #9c8cb9;
+            color: white;
+        }
+    </style>

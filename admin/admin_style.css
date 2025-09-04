@@ -1,0 +1,168 @@
+<style>
+       html, body {
+            
+            background:#d6e6f8;
+        }
+        .btn-custom
+        {
+           background: linear-gradient(to right, #cdb4f8, #efdccf);
+           border: none;
+           border-radius: 30px;
+           padding: 12px 25px;
+           font-size: 1.1em;
+           margin: 10px 0;
+           width: 10%;
+          color: white;
+          transition: 0.4s;
+        }
+        .btn-custom:hover {
+      background: linear-gradient(to right, #8488b5, #61678b);
+      transform: scale(1.05);
+      color: #f9f9f9;
+  }
+
+  .logo {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #61678b;
+  }
+  .navbar {
+  
+  background: #3a6ea5 !important ;
+  transition: background 0.5s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ffffff !important;
+}
+.home-icon i {
+  color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.home-icon i:hover {
+  transform: scale(1.2);
+  color: #f0f0ff;
+}
+.logo1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #61678b;
+    text-decoration: underline;
+  }
+          .card {
+            
+             height: 150px;
+            max-width: 300px;
+            width: 100%; 
+        }
+
+        .card-header {
+            background-color: #BA96c1; /* Medium purple */
+            color: white;
+            font-weight: bold;
+        }
+
+        .btn-outline-primary {
+            border-color: #BA96c1;
+            color: #5e17eb;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: #9c8cb9;
+            color: white;
+        }
+
+        marquee {
+
+            padding: 5px;
+            font-weight: bold;
+            color: black;
+        }
+         /* Sidebar styling */
+   
+        .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: -250px;
+      background-color: #2c3e50;
+      padding-top: 60px;
+      transition: 0.3s;
+      z-index: 1000;
+    }
+
+.sidebar.active {
+      left: 0;
+    }
+
+    .sidebar ul li {
+      padding: 5px 20px;
+    }
+
+    .sidebar ul li a {
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+
+    .sidebar ul li a:hover {
+      background-color: blue;
+    }
+
+    .menu-icon {
+      font-size: 1.5rem;
+      color: white;
+      padding: 0px;
+      left: 0px;
+      cursor: pointer;
+    }
+
+    .topbar {
+     
+      color: white;
+      padding: 5px;
+    }
+    .navbar-brand{
+        font-size: 25px !important;
+        padding-top: 500px;
+        padding-bottom: 100px;
+
+    }
+    .navbar .nav-link,
+        .navbar-brand,
+        .navbar .text-white strong {
+            color: #fff !important;
+        }
+         .navbar {
+            background-color: #3a6ea5; /* Deep Purple */
+        }
+        .custom-btn:hover {
+        background-color: #fadada; /* Darker Blue on Hover */
+        color: white; /* White Text on Hover */
+      }
+
+      table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            table-layout: fixed;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            word-wrap: break-word;
+        }
+        th {
+            background-color: #f2f2f2 !important;
+        }
+        img {
+            width: 90px; /* Adjust as needed */
+            height: auto;
+        }
+    </style> 
