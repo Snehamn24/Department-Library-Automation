@@ -64,7 +64,10 @@ c:/xampp/htdocs/Department-Library-Automation
 ---
 
 ##  🙌 Contributors
-- **Sneha M N** - Project Lead & Developer  
+- **Sneha M N** - Project Lead & Developer
+- **Mavya M N**
+- **Harshitha BM**
+- **Sinchana S**
 
 ---
 
